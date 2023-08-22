@@ -36,7 +36,7 @@ def postuser():
     
     }
     collection.insert_one(payload)
-    return jsonify({"message": "User has been sucessfully inserted"})
+    return jsonify({"message": f"User has been sucessfully inserted with id {id}"})
 
 @app.route("/users/<string:id>",methods=["GET"])   #Returns the user with the specified ID.
 def getuser(id):
@@ -61,6 +61,9 @@ def updateuser(id):
     data = request.get_json()
     if 'name' not in data or 'email' not in data or 'password' not in data:
         return jsonify({'error': 'Name, email, and password are required'}), 400
+    existing_user = collection.find_one({'_id': id})
+    if not existing_user:
+        return jsonify({'error': 'User does not exists'}), 400
     name = data.get('name')
     email = data.get('email')
     password = data.get('password')
