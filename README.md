@@ -19,8 +19,11 @@ uuid
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/abhishekgit03/CrudAPI.git
 2. Create virtual envioronment using the command:``` python -m venv env```
+3. Activate the env using command: ```./env/Scripts/activate```
+4. Install packages: ```pip install -r requirements.txt```
+5. Run the flask app using: python app.py
 
 1) POST https://crudapi-p1kz.onrender.com/users:
    
