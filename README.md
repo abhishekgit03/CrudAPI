@@ -1,5 +1,27 @@
 # CrudAPI
 
+## Getting Started
+
+The Flask API is deployed on Render and can be accessed through the following endpoint: https://crudapi-p1kz.onrender.com
+You can also clone the repo and test using postman
+
+### Databases and packages used
+
+MongoDB
+Flask
+Pymongo
+jsonify
+python-dotenv
+uuid
+
+
+### Installation
+
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/your-username/your-project.git
+2. Create virtual envioronment using the command:``` python -m venv env```
+
 1) POST https://crudapi-p1kz.onrender.com/users:
    
    Creates a new user with the specified data.
