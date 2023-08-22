@@ -2,17 +2,17 @@
 
 ## Getting Started
 
-The Flask API is deployed on Render and can be accessed through the following endpoint: https://crudapi-p1kz.onrender.com
-You can also clone the repo and test using postman
+-The Flask API is deployed on Render and can be accessed through the following endpoint: https://crudapi-p1kz.onrender.com
+-You can also clone the repo and test using Postman
 
 ### Databases and packages used
 
-MongoDB
-Flask
-Pymongo
-jsonify
-python-dotenv
-uuid
+-MongoDB
+-Flask
+-Pymongo
+-jsonify
+-python-dotenv
+-uuid
 
 
 ### Installation
