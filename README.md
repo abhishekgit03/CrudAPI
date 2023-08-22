@@ -47,10 +47,10 @@
 
 9) DELETE https://crudapi-p1kz.onrender.com/users/8b01830c-00a4-4824-b9f3-7ccb0840719b
 
-## Note: In Render webservice Free plan, server becomes idle after 15 mins of inactivity. The first request may take some time. Subsequent requests will be faster.
-
    Deletes the user with the specified ID.
 ![image](https://github.com/abhishekgit03/CrudAPI/assets/92089364/52a7de74-21c2-4f00-924e-7b1c9646272f)
+
+## Note: In Render webservice Free plan, server becomes idle after 15 mins of inactivity. The first request may take some time. Subsequent requests will be faster.
 
 
 
