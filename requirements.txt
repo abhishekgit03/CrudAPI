@@ -2,4 +2,5 @@ pymongo
 flask
 flask_cors
 python-dotenv
+flask_restful
 gunicorn==20.1.0
