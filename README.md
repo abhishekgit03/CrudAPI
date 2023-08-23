@@ -9,6 +9,7 @@
 
 - MongoDB
 - Flask
+- flask_restful
 - Pymongo
 - jsonify
 - python-dotenv
