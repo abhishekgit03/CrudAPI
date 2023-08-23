@@ -50,6 +50,8 @@
    Deletes the user with the specified ID.
 ![image](https://github.com/abhishekgit03/CrudAPI/assets/92089364/52a7de74-21c2-4f00-924e-7b1c9646272f)
 
+## Note: In Render webservice Free plan, server becomes idle after 15 mins of inactivity. The first request may take some time. Subsequent requests will be faster.
+
 
 
 
